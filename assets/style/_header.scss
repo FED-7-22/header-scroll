@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  transition: 0.5s;
+  .nav-bar {
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      li {
+        box-sizing: border-box;
+        padding: 0px 20px;
+      }
+    }
+  }
+}
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 8888;
+}
